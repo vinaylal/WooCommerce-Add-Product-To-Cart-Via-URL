@@ -1,0 +1,37 @@
+.setRow
+{
+    width: 100%;
+    margin: 0.5em 0;
+}
+.setCol{
+    margin: 0.5em 0;
+    display: inline-block;
+}
+select.prod_url_select{
+    width: 80%;
+    margin: 0.5em 0;
+}
+input.prod_url_qty,
+.wcad_remove_input {
+    padding: 0.6em;
+    max-width: 75px;
+    margin: 0.5em 0;
+}
+input#wcad_submit_product_url_list {
+    display: block;
+    width: 100%;
+    margin: 0.5em 0;
+}
+#wcad_new_product {
+    width: 100%;
+    display: block;
+    padding: 0.5em;
+    text-align: center;
+    margin: 0.5em 0;
+}
+@media (max-width: 768px) {
+    select.prod_url_select {
+        width: 70%;
+    }
+}
+.wcadHide{display: none;}
